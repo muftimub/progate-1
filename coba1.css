@@ -1,0 +1,46 @@
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(248,248,255, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 4px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(248,248,255, 0.3);
+  font-family: 'Yellowtail', cursive;
+}
+
+.header-right a:hover {
+  background-color: rgba(0,0,0, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 10px 40px 0px 40px;
+  color: black;
+  display: block;
+  font-weight: bold;
+  font-size: 18px;
+  float: left;
+  transition: all 0.5s;
+}
+
+.top-wrapper {
+  background-color: black;
+  height: 500px;
+  color: #fff;
+}
